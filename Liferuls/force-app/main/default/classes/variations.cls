@@ -21,6 +21,7 @@ public with sharing class variations {
         for(Integer Index=0;Index<mc;Index++)
         {
             fullName.add(FirstName[Index]+ ''+ LastName[Index]);
+            system.debug('Full Name: ' + fullName[Index]);
         }
          
         return fullName; 
