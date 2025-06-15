@@ -9,6 +9,13 @@ public with sharing class variations {
    List<string> FirstName; // storing method parameters in class level 
     List<string> LastName;	// so that we can use inside the class
 	List<String> fullName = new List<String>();
+    /**
+    * @description 
+    * @author Abishek ND | 06-15-2025 
+    * @param FirstName 
+    * @param LastName 
+    * @return List<String> 
+    **/
     public List<String> str(List<String> FirstName,List<String> LastName){
         Integer mc = FirstName.size();
         for(Integer Index=0;Index<mc;Index++)
