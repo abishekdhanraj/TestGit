@@ -33,7 +33,7 @@ public with sharing class Product {
             System.debug('Insufficient stock for product: ' + name);
             return;
         }
-        Integer totalPrice = (price * quantity) - ((price * quantity) * discount);
+        Decimal totalPrice = (price * quantity) - ((price * quantity) * discount);
         System.debug('Total price for ' + quantity + ' units of ' + name + ': ' + totalPrice);
         stock -= quantity; // Update stock after billing
     }
