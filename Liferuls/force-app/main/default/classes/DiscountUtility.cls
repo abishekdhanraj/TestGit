@@ -27,4 +27,11 @@ public with sharing class DiscountUtility {
         } 
         return Discount;
     }
+    public DiscountUtility() {
+        // Constructor can be used for initialization if needed
+        // For example, you can set default values for Rating and Amount
+        this.Rating = 'Cold'; // default value
+        this.Amount = 0; // default value
+        this.Discount = 0; // default value 
+    }
 }
