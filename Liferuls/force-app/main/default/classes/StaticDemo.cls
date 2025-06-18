@@ -14,9 +14,9 @@ public with sharing class StaticDemo {
      * @param x 
      * @param y 
      **/
-    public void setDisplay(Integer x){
-        x = x; 
-        y = y; 
+    public void setDisplay(Integer a){
+        x = a; 
+        y = a; 
     }
     /**
     * @description 
