@@ -20,7 +20,10 @@ public with sharing class ApexDemo {
         //this.message = msg; // assigning the method parameter to the class level variable
         system.debug('Num: 🔥'+this.num);
         System.debug('Message: ' + this.message); // printing the message to debug log
-        system.debug('😘😘'+ message); // function level varible
+        system.debug('😘😘'+ message); // function level variable
         system.debug('🔥🔥'+ num);
-    }   
+    } 
+    public string displayMessage(){
+        return message;
+    }
 }
