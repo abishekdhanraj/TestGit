@@ -9,6 +9,8 @@ public with sharing class ApexDemo {
         Private String message; // storing method parameters in class level
         Private Integer num; // storing method parameters in class level
         // so that we can use inside the class
+        public Integer x= 10;
+    	public static Integer y=20;
     /**
     * @description 
     * @author Abishek ND | 06-15-2025 
@@ -25,5 +27,9 @@ public with sharing class ApexDemo {
     } 
     public string displayMessage(){
         return message;
+    }
+    public static void displayValues() {
+        system.debug('static method');
+        y=30;
     }
 }
