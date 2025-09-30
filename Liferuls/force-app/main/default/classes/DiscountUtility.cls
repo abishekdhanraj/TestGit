@@ -2,10 +2,10 @@
 * @description       : 
 * @author            : Abishek ND
 * @group             : 
-* @last modified on  : 06-26-2025
+* @last modified on  : 09-30-2025
 * @last modified by  : Abishek ND
 **/
-public with sharing class DiscountUtility {
+public with sharing class DiscountUtility {sf
     Private String Rating; // storing method parameters in class level
     Private Integer Amount;
     Decimal Discount = 0; // storing method parameters in class level
