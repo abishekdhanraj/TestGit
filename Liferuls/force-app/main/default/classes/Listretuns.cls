@@ -2,11 +2,11 @@
  * @description       : 
  * @author            : Abishek ND
  * @group             : 
- * @last modified on  : 06-15-2025
+ * @last modified on  : 02-18-2026
  * @last modified by  : Abishek ND
 **/
 public class Listretuns {
-    List<string> FirstName; // storing method parameters in class level 
+    List<string> FirstName; // Storing method parameters in class level 
     List<string> LastName;	// so that we can use inside the class
 	List<String> fullName = new List<String>();
     public List<String> str(List<String> FirstName,List<String> LastName){
@@ -17,5 +17,5 @@ public class Listretuns {
         }
          
         return fullName; 
-    } 
+    }
 }
