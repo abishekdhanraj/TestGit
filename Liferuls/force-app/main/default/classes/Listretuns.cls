@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Abishek ND
  * @group             : 
- * @last modified on  : 2026-05-30
+ * @last modified on  : 2026-05-31
  * @last modified by  : Abishek ND
 **/
 public class Listretuns {
@@ -19,3 +19,4 @@ public class Listretuns {
         return fullName; 
     }
 }
+// This class is used to concatenate first name and last name from two lists and return a list of full names. The method 'str' takes two lists as input, iterates through them, concatenates the corresponding elements, and stores the result in the 'fullName' list, which is then returned.
