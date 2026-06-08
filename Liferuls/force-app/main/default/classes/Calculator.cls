@@ -1,8 +1,8 @@
 /**
- * @description       : 
+ * @description       : to find the sum, difference and product of two numbers
  * @author            : Abishek ND
- * @group             : 
- * @last modified on  : 2026-03-28
+ * @group             : dfdsfdreturn a-b;
+ * @last modified on  : 2026-06-08
  * @last modified by  : Abishek ND
 **/
 public with sharing class Calculator {
@@ -10,10 +10,10 @@ public with sharing class Calculator {
     Integer b;
 
     /**
-    * @description 
-    * @author Abishek ND | 06-18-2025 
-    * @param a 
-    * @param b 
+    * @description Calculates the sum of two integers
+    * @author Abishek ND | 06-18-2025
+    * @param a
+    * @param b
     **/
     public Integer caluclte(Integer a, Integer b){
         this.a=a;
